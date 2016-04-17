@@ -1,0 +1,2 @@
+﻿CREATE SCHEMA [kient] AUTHORIZATION [kient]
+GO

@@ -1,0 +1,3 @@
+﻿CREATE USER [kient]
+  WITHOUT LOGIN
+GO

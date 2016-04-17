@@ -1,0 +1,3 @@
+﻿CREATE USER [johnw]
+  WITHOUT LOGIN
+GO

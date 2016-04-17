@@ -1,0 +1,3 @@
+﻿CREATE USER [Domain Users]
+  WITHOUT LOGIN
+GO

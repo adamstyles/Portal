@@ -1,0 +1,2 @@
+﻿CREATE SCHEMA [fc] AUTHORIZATION [fc]
+GO

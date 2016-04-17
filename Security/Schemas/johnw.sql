@@ -1,0 +1,2 @@
+﻿CREATE SCHEMA [johnw] AUTHORIZATION [johnw]
+GO

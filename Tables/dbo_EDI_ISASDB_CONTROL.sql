@@ -1,0 +1,7 @@
+﻿CREATE TABLE [dbo].[EDI_ISASDB_CONTROL] (
+  [EDISetting] [nvarchar](50) NOT NULL,
+  [boolValue] [bit] NOT NULL,
+  CONSTRAINT [PK_EDI_ISASDB_CONTROL] PRIMARY KEY CLUSTERED ([EDISetting])
+)
+ON [PRIMARY]
+GO

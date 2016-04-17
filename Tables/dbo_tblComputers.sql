@@ -1,0 +1,31 @@
+﻿CREATE TABLE [dbo].[tblComputers] (
+  [ComputerName] [nvarchar](255) NOT NULL,
+  [UserID] [nvarchar](255) NULL,
+  [EN] [bit] NOT NULL CONSTRAINT [DF_tblComputers_EN] DEFAULT (0),
+  [IPL] [bit] NOT NULL CONSTRAINT [DF_tblComputers_IPL] DEFAULT (0),
+  [ISASR] [bit] NOT NULL CONSTRAINT [DF_tblComputers_ISASR] DEFAULT (0),
+  [ISASAQC] [bit] NOT NULL CONSTRAINT [DF_tblComputers_ISASAQC] DEFAULT (0),
+  [ISASAQM] [bit] NOT NULL CONSTRAINT [DF_tblComputers_ISASAQM] DEFAULT (0),
+  [ISASCAR] [bit] NOT NULL CONSTRAINT [DF_tblComputers_ISASCAR] DEFAULT (0),
+  [ISASCM] [bit] NOT NULL CONSTRAINT [DF_tblComputers_CM Client] DEFAULT (0),
+  [ISASCAT] [bit] NOT NULL CONSTRAINT [DF_tblComputers_ISASCAT] DEFAULT (0),
+  [ISASDR] [bit] NOT NULL CONSTRAINT [DF_tblComputers_ISASDR] DEFAULT (0),
+  [ISASFC] [bit] NOT NULL CONSTRAINT [DF_tblComputers_FC Client] DEFAULT (0),
+  [ISASFCS] [bit] NOT NULL CONSTRAINT [DF_tblComputers_FC Stores] DEFAULT (0),
+  [ISASHL] [bit] NOT NULL CONSTRAINT [DF_tblComputers_ISASHL] DEFAULT (0),
+  [ISASI] [bit] NOT NULL CONSTRAINT [DF_tblComputers_Interface] DEFAULT (0),
+  [ISASJC] [bit] NOT NULL CONSTRAINT [DF_tblComputers_ISASJC] DEFAULT (0),
+  [ISASJCC] [bit] NOT NULL CONSTRAINT [DF_tblComputers_ISASJCC] DEFAULT (0),
+  [ISASJCD] [bit] NOT NULL CONSTRAINT [DF_tblComputers_ISASJCD] DEFAULT (0),
+  [ISASJCM] [bit] NOT NULL CONSTRAINT [DF_tblComputers_ISASJCM] DEFAULT (0),
+  [ISASORD] [bit] NOT NULL CONSTRAINT [DF_tblComputers_ISASORD] DEFAULT (0),
+  [ISASQC] [bit] NOT NULL CONSTRAINT [DF_tblComputers_QM Client] DEFAULT (0),
+  [ISASQEC] [bit] NOT NULL CONSTRAINT [DF_tblComputers_ISASQEC] DEFAULT (0),
+  [ISASCP] [bit] NOT NULL CONSTRAINT [DF_tblComputers_ISASCP] DEFAULT (0),
+  [ODBC] [bit] NOT NULL CONSTRAINT [DF_tblComputers_ODBC] DEFAULT (0),
+  [IPAddress] [nvarchar](50) NULL,
+  [Desc] [nvarchar](50) NULL,
+  CONSTRAINT [PK_tblComputers] PRIMARY KEY CLUSTERED ([ComputerName])
+)
+ON [PRIMARY]
+GO
